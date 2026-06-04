@@ -36,7 +36,6 @@ const variantStyle = {
 const Card = ({
     variant = "icon",
     icon,
-    icon2,
     number,
     title,
     description,

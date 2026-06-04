@@ -1,5 +1,3 @@
-import { Shield, Focus, Triangle, Book } from 'lucide-react'
-import Card from '../common/Card'
 import SectionSubTitle from '../common/SectionSubTitle'
 import SectionTitle from '../common/SectionTitle'
 import Button from '../common/Button'

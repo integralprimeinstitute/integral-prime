@@ -27,6 +27,7 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
@@ -36,12 +37,12 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arunks636/integral-prime.git"
+    "url": "git+https://github.com/integralprimeinstitute/integral-prime.git"
   },
+  "homepage": "https://www.ipi-tvm.com",
   "author": "Arun KS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arunks636/integral-prime/issues"
-  },
-  "homepage": "https://github.com/arunks636/integral-prime#readme"
+    "url": "https://github.com/integralprimeinstitute/integral-prime/issues"
+  }
 }
