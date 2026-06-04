@@ -55,7 +55,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 z-50 w-full border-b border-b-[#e7e7e7] bg-white">
       <div className="hdr-wrapper mx-auto flex w-full max-w-[1600px] items-center justify-between gap-4 px-5 py-5">
         {/* Logo */}
-        <div className="flex align-middle">
+        <div className="flex align-middle mr-auto">
           <img
             className="max-w-[60px] self-center"
             src={logo}
@@ -74,7 +74,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden items-center md:gap-10 lg:gap-[20px] xl:gap-10 font-ui text-[16px] font-medium text-brand-navy md:flex">
+        <nav className="hidden items-center md:gap-8 lg:gap-[18px] xl:gap-8 font-ui text-[15px] font-medium text-brand-navy md:flex md:mr-[15px]">
           {NAV_ITEMS.map((item) =>
             item.type === "section" ? (
               <a

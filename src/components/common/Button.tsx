@@ -16,7 +16,7 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   const baseStyles =
-    "inline-flex items-center gap-2 rounded-[10px] font-ui font-bold transition-all duration-300 tracking-[1px] cursor-pointer px-3 py-3 md:px-6 text-[13px] md:text-[15px]";
+    "group relative overflow-hidden inline-flex items-center gap-2 rounded-[10px] font-ui font-bold transition-all duration-300 tracking-[1px] cursor-pointer px-3 py-3 md:px-6 text-[13px] md:text-[15px]";
 
   const variants = {
     primary: "bg-brand-navy text-white",
@@ -29,9 +29,38 @@ const Button = ({
       className={`${baseStyles} ${variants[variant]} ${className}`}
       {...props}
     >
-      <span>{children}</span>
+      {/* Shine effect */}
+      <span
+        className="
+          absolute
+          inset-0
+          -translate-x-[150%]
+          skew-x-12
+          bg-gradient-to-r
+          from-transparent
+          via-white/20
+          to-transparent
+          transition-transform
+          duration-700
+          ease-out
+          group-hover:translate-x-[150%]
+        "
+      />
 
-      {showArrow && <MoveRight size={13} color="white" />}
+      <span className="relative z-10">{children}</span>
+
+      {showArrow && (
+        <MoveRight
+          size={13}
+          className="
+            relative z-10
+            transition-transform
+            duration-300
+            ease-out
+            group-hover:translate-x-1.5
+          "
+        />
+      )}
     </button>
   );
 };

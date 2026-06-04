@@ -1,5 +1,10 @@
 export const NAV_ITEMS = [
     {
+        label: "About",
+        target: "about",
+        type: "section"
+    },
+    {
         label: "Courses",
         target: "courses",
         type: "section"

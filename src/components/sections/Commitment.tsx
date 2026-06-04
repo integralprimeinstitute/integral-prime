@@ -18,7 +18,7 @@ const Commitment = () => {
           }
           titleSubText="Four pillars that define how we teach, guide, and support everyone who joins us"
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-15 ml-auto mr-auto w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-15 ml-auto mr-auto w-full">
           <Card
             variant="number"
             number={1}

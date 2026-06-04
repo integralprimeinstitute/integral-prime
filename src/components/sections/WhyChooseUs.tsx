@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
   }
           titleSubText="Everything at Integral Prime Institute is designed to give every student the strongest possible foundation for their future."
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-15 ml-auto mr-auto w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-15 ml-auto mr-auto w-full">
           <Card
             variant="icon2"
             icon={<Users />}

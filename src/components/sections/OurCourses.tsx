@@ -9,11 +9,11 @@ const OurCourses = () => {
         <div className='max-w-400 my-0 mx-auto p-[70px_20px] md:p-[100px_20px]'>
             <SectionSubTitle text='What We Offer'/>
             <SectionTitle text="Our Courses" titleSubText='Structured, concept-first coaching for every major entrance examination - designed to build deep understanding, not just exam readiness.'/>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-15 ml-auto mr-auto w-full'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-15 ml-auto mr-auto w-full'>
                 <Card 
                     variant='icon' 
                     icon={<Shield/>}
-                    title="NEED Coaching"
+                    title="NEET Coaching"
                     description='Comprehensive preperation for the National Eligibility cum Entrance Test. Cover Physics, Chemistry, and Biology with a focus on concept clarity and Exam strategy.'
                     badge='Medical Entrance'
                 />
