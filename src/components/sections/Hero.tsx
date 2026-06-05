@@ -14,7 +14,7 @@ const courses = [
     badge: "IIT - NIT",
   },
   {
-    label: "FKEAM Coaching",
+    label: "KEAM Coaching",
     badge: "Kerala Engg",
   },
   {
